@@ -1,0 +1,4 @@
+1. Create chat system using TCP client and server
+2. Analyse how it works
+3. Implement file writer to add history of chat conversation
+4. Create client /server using UDP

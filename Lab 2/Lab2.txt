@@ -1,0 +1,105 @@
+Task
+1. Create class and implement getter setter method
+2. Abstract class implementation
+3. Inheritance classes
+4. Composition HAS_A relation
+5. Polymorphism- method overloading, overriding
+6. Exception handling
+
+
++-----------------+
+|     Shape       | <--- Abstract Class
+|-----------------|
+| +area(): float  |
+| +perimeter(): float |
++-----------------+
+         ^
+         |
++-----------------+     +-----------------+
+|     Circle      |     |   Rectangle     |
+|----------------- |     |-----------------|
+| - radius: float |     | - width: float  |
+|                 |     | - height: float |
+| +area(): float  |     | +area(): float  |
+| +perimeter(): float|   | +perimeter(): float |
++-----------------+     +-----------------+
+
++-----------------+
+|     Canvas      |
+|-----------------|
+| - shapes: List<Shape> |
+|-----------------|
+| +addShape(shape: Shape): void |
+| +draw(): void  |
++-----------------+
+
+Circle - area: PI*r*r
+         perimeter: 2 * PI *r
+Rectangle - area: width * height
+            perimeter: 2 * (width * height)
+
+Exception handling - arithmetic /0
+
+
+  1
+ 212
+32123
+ 212
+  1
+
+    *
+   ***
+  *****
+  = 2n-1
+
+
+
+Practice:
+
++------------------+
+|      Shape       |
+|------------------|
+| + draw(): void   |
++------------------+
+         ^
+         |
++---------------------+      +---------------------+
+|     TwoDShape      |      |     ThreeDShape     |
+|---------------------|      |---------------------|
+| + area(): double    |      | + volume(): double  |
++---------------------+      +---------------------+
+         ^                          ^
+         |                          |
++------------------+         +------------------+
+|     Circle       |         |      Sphere      |
+|------------------|         |------------------|
+| - radius: double |         | - radius: double |
+|------------------|         |------------------|
+| + draw(): void   |         | + draw(): void   |
+| + area(): double |         | + volume(): double|
++------------------+         +------------------+
+         ^
+         |
++---------------------+
+|     Rectangle       |
+|---------------------|
+| - width: double     |
+| - height: double    |
+|---------------------|
+| + draw(): void      |
+| + area(): double    |
++---------------------+
+
++------------------+
+|      Cube        |
+|------------------|
+| - side: double   |
+|------------------|
+| + draw(): void   |
+| + volume(): double|
++------------------+
+
+Sphere:
+    volumn: (4.0/3)*PI*Math.pow(radius, 3)
+Cube:
+    volumn: Math.pow(side,3)

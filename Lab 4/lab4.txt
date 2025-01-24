@@ -1,0 +1,5 @@
+1. Write a program to create and run a thread using Thread and Runnable.
+    - declare and initialize multiple thread and run
+2. Check Thread state. modify thread priority
+3. Write a program to demonstrate thread synchronization
+4. Thread communication example

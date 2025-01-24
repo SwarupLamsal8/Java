@@ -1,0 +1,6 @@
+1. Sequential File I/O- Writing and reading data in order from start to end
+ - File write Using file writer
+ - File read BufferedReader / FileReader
+2. Random Access File I/O in Java
+ - Writing to a file at random positions
+ - Reading from a file at random positions

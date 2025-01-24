@@ -1,0 +1,35 @@
+1. Create applet class, override paint method
+2. Initialize init method with background color
+3. Implement Button
+    Button button = new Button("Click Me");
+    button.setBounds(50, 50, 100, 30);
+    add(button);
+4. Label
+    Label label = new Label("This is a label");
+    label.setBounds(50, 100, 200, 30);
+    add(label);
+ 5. TextField, TextArea, Checkbox
+        TextField textField = new TextField();
+        textField.setBounds(50, 150, 200, 30);
+        add(textField);
+ 6. Choice
+ Choice choice = new Choice();
+ choice.add("Option 1");
+ choice.add("Option 2");
+ choice.add("Option 3");
+ choice.setBounds(50, 400, 200, 30);
+ add(choice);
+
+ 7. List
+ 8. Radio button
+ CheckboxGroup group = new CheckboxGroup();
+ Checkbox radioButton1 = new Checkbox("Option 1", group, false);
+ radioButton1.setBounds(50, 500, 100, 30);
+ Checkbox radioButton2 = new Checkbox("Option 2", group, false);
+ radioButton2.setBounds(50, 550, 100, 30);
+ add(radioButton1);
+ add(radioButton2);
+ 9. Canvas
+ 10. Using external HTMl
+ 10. FileDialog
+

@@ -1,0 +1,20 @@
+Task
+1. Create HelloWorld class
+2. Explore Java variables declaration and value assign
+3. Explore Java data types and its use cases
+4. Java type casting
+5. Java operators
+6. Explore Java String methods
+7. Explore Java arrays
+
+Program:
+1. Factorial
+    ClassName : LabOne
+        methods: int calFactorial(int number)
+
+                 void printSeries(int length)
+                 1
+                 12
+                 123
+                 1234
+                 12345

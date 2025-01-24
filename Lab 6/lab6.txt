@@ -1,0 +1,2 @@
+1. awt/Swing form design familiar with all swing controls (from old question)
+2. save data in file
