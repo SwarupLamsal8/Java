@@ -1,4 +1,4 @@
-package labone;
+package Lab1;
 
 public class JavaOperators {
 

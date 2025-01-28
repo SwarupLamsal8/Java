@@ -1,4 +1,4 @@
-package labfour;
+package Lab4;
 
 public class ThreadComSharedData {
     private int count = 0;

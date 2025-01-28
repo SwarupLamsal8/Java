@@ -1,4 +1,4 @@
-package labfour;
+package Lab4;
 
 public class ThreadComIncrementThread extends Thread{
     ThreadComSharedData data;

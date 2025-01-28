@@ -1,4 +1,4 @@
-package labone;
+package Lab1;
 
 public class JavaTypeCasting {
     public static void main(String[] args) {

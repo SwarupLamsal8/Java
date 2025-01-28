@@ -1,4 +1,4 @@
-package labone;
+package Lab1;
 /*
 This class explain how the java variables are declare and initialize
  */

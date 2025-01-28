@@ -1,6 +1,6 @@
-package labone;
+package Lab1;
 
-import labtwo.*;
+import Lab2.*;
 
 import java.util.Scanner;
 

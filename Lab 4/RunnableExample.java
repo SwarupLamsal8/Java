@@ -1,4 +1,4 @@
-package labfour;
+package Lab4;
 
 public class RunnableExample implements Runnable{
     @Override

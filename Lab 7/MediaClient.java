@@ -1,9 +1,9 @@
-package labseven;
-import javax.sound.sampled.*;
+package Lab7;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.*;
+import javax.sound.sampled.*;
 public class MediaClient {
 
     public static void main(String[] args) {

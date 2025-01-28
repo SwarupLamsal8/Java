@@ -1,4 +1,4 @@
-package labsix;
+package Lab6;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

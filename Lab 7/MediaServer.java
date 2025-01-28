@@ -1,4 +1,4 @@
-package labseven;
+package Lab7;
 import java.io.*;
 import java.net.*;
 public class MediaServer {

@@ -1,4 +1,4 @@
-package labtwo;
+package Lab2;
 
 public class Circle extends Shape{
 
